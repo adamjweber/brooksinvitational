@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Tournament</title>
+    
+</head>
+<body>
+    <h1>Create Tournament</h1>
+    <form id="tournamentForm">
+        <h2>Teams and Players</h2>
+        <div id="teams">
+            <h3>Team 1</h3>
+            <input type="text" id="team1" placeholder="Team 1 Name">
+            <input type="text" id="player1" placeholder="Player 1 Name">
+            <input type="text" id="player2" placeholder="Player 2 Name">
+            <h3>Team 2</h3>
+            <input type="text" id="team2" placeholder="Team 2 Name">
+            <input type="text" id="player3" placeholder="Player 3 Name">
+            <input type="text" id="player4" placeholder="Player 4 Name">
+            <h3>Team 3</h3>
+            <input type="text" id="team3" placeholder="Team 3 Name">
+            <input type="text" id="player5" placeholder="Player 5 Name">
+            <input type="text" id="player6" placeholder="Player 6 Name">
+            <h3>Team 4</h3>
+            <input type="text" id="team4" placeholder="Team 4 Name">
+            <input type="text" id="player7" placeholder="Player 7 Name">
+            <input type="text" id="player8" placeholder="Player 8 Name">
+        </div>
+        <button type="button" class="submit-btn" onclick="saveTournament()">Start Tournament</button>
+    </form>
+    <script src="tournament.js"></script>
+</body>
+</html>
